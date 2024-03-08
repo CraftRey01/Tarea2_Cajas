@@ -3,10 +3,17 @@
     border: 8px solid green;
     display: flex;
     flex-flow: row nowrap;
-    width: 900px;
-    height: 600px;
+    padding: 10px;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
     margin: auto;
+}
+
+@media (max-width: 500px) {
+    #container {
+        flex-direction: column;
+    }
 }
 
 .GCaja {
@@ -14,14 +21,13 @@
     border: 4px solid green;
     margin: 6px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 200px;
+    flex-flow: column nowrap;
+    width: calc(100% - 20%);
     height: 560px;
 }
 
 .sub1 {
-    margin: auto;
+    margin: 10px;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -33,23 +39,21 @@
     width: 55px;
     height: 70px;
     display: flex;
-    flex-flow: row nowrap;
 }
 
 .sub2 {
-    margin: auto;
+    margin: 10px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
 .sub2-1 {
     background-color: brown;
     border: 2px solid red;
     margin: 4px;
-    width: 180px;
+    width: auto;
     height: 80px;
     display: flex;
-    flex-flow: column nowrap;
 }
 
 .sub3 {
@@ -65,20 +69,4 @@
     width: 55px;
     height: 70px;
     display: flex;
-}
-
-.sub4 {
-    margin: auto;
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-.sub4-1 {
-    background-color: mediumaquamarine;
-    border: 2px solid red;
-    margin: 4px;
-    width: 80px;
-    height: 140px;
-    display: flex;
-    flex-flow: column nowrap;
 }
