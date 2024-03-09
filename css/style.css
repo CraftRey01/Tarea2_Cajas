@@ -30,6 +30,8 @@
     margin: 10px;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .sub1-1 {
@@ -45,6 +47,7 @@
     margin: 10px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
 .sub2-1 {
@@ -60,6 +63,8 @@
     margin: 10px;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .sub3-1 {
